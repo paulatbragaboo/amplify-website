@@ -28,7 +28,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url('../images/header.jpg');
+    background-image: url('../images/teamwork-1.jpeg'); /*url('../images/header.jpg');*/
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -56,6 +56,10 @@ header .header-content .header-content-inner p {
     font-weight: 300;
     color: rgba(255,255,255,.7);
 }
+
+header .overlay {
+    background-color: rgba(0,0,0,0.4); /* Black background with opacity */
+  }
 
 @media(min-width:768px) {
     header {
